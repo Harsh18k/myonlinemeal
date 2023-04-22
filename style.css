@@ -19,8 +19,9 @@
 
 #navbar{
 	font-family: sans-serif;
-	position: relative;
+/*	position: relative;*/
 	display: flex;
+	z-index: 2;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -70,6 +71,7 @@
 	color: black;
 	background: white;
 
+
 }
 
 .home::before{
@@ -78,6 +80,7 @@
 	position: absolute;
 	width: 100%;
 	height: 100%;
+/*	opacity: 0.9;*/
 	z-index: -2;
 
 }
@@ -165,5 +168,42 @@
 	font-size: 1.7rem;
 }
 
+.clients::before{
+	content: "";
+	background: url('img/bg2.jpg') no-repeat center center/cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 0.8;
+}
+
+.clients{
+	position: relative;
+	height: 350px;
+
+}
+
+.h3{
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 50px 50px 20px 50px;
+	text-shadow: 2px 3px 5px grey;
+}
+
+#clientbox{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.clientimg{
+	padding: 34px;
+}
+
+.clientimg img{
+	height: 100px;
+}
 
 
