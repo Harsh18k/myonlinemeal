@@ -186,7 +186,7 @@ html{
 
 #clients{
 	position: relative;
-	height: 350px;
+	height: auto;
 
 }
 
@@ -239,7 +239,7 @@ html{
 }
 
 .contactform form{
-	width: 45%;
+	width: 80%;
 }
 
 .contactform label{
