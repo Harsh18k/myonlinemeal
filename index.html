@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="phone.css">
+	<link rel="stylesheet" type="text/css" href="phone.css" media="screen and (max-width:875px)">
 	<title>MY-ONLINE-MEAL</title>
 </head>
 <body>
@@ -14,16 +14,16 @@
 			<img src="img/logo2.avif">
 		</label>
 		<ul>
-			<li><a href="#">home</a></li>
-			<li><a href="#">about</a></li>
-			<li><a href="#">contact</a></li>
-			<li><a href="#">services</a></li>
+			<li><a href="#home">home</a></li>
+			<li><a href="#clients">clients</a></li>
+			<li><a href="#contact">contact</a></li>
+			<li><a href="#service-container">services</a></li>
 		</ul>
 	</nav>
 
 	<!-- home section -->
 
-	<section class="home">
+	<section id="home">
 		<h1 class="h1-primary">
 			Welcome To My-Online-Meal
 		</h1>
@@ -35,7 +35,7 @@
 
 	<!-- services -->
 
-<div class="service-container">
+<div id="service-container">
 		<h1 class="h1-primary" id="h2"> Our Services </h1>
 	<div id="services">
 		<div class="food">
@@ -64,7 +64,7 @@
 
 <!-- clients logo -->
 
-<section class="clients">
+<section id="clients">
 	<h1 class="h3">Our Clients</h1>
 	<div id="clientbox">
 		<div class="clientimg">
@@ -86,7 +86,7 @@
 
 <!-- contact form -->
 
-<section class="contact">
+<section id="contact">
 	<h1 class="h3">Contact</h1>
 	<div class="contactform">
 		<form>
