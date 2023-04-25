@@ -21,7 +21,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 60px;
+	height: auto;
+	padding: 20px;
 }
 
 #navbar ul{
@@ -43,3 +44,34 @@
 	color: white;
 	text-decoration: none;
 }
+
+
+#drop{
+/*	display: flex;*/
+	flex-direction: column;
+	background: black;
+	position: absolute;
+	top: 62px;
+/*	height: 80px;*/
+}
+
+
+#drop li{
+/*	background: yellow;*/
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
