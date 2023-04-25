@@ -3,8 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="phone.css">
+	<link rel="stylesheet" type="text/css" href="phone.css" media="screen and (max-width:840px)">
 	<link rel="stylesheet" type="text/css" href="img/bg.jpg">
 	<title>My-Online-Meal</title>
 </head>
@@ -12,18 +13,14 @@
 
 	<!-- navigation bar -->
 	<nav id="navbar">
+		<input type="checkbox" name="" id="check" style="display: none;">
+		<label for="check" id="checkbtn"><i class="fa fa-bars"></i></label>
 		<ul>
 			<li><a href="#home" id="active">Home</a></li>
 			<li><a href="#service">Services</a></li>
 			<li><a href="#about">About</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a href="#category">Category</a>
-				<ul id="drop">
-					<li><a href="#">Vegan</a></li>
-					<li><a href="#">Non-Veg</a></li>
-					<li><a href="#">Veg</a></li>
-				</ul>
-			</li>
+			<li><a href="#category">Category</a></li>
 		</ul>
 	</nav>
 
@@ -80,7 +77,7 @@
 <!-- made category -->
 
 <section id="category">
-	<h1 class="h-primary" style="color:white; text-shadow: 2px 3px 5px black;">Category of Foods</h1>
+	<h1 class="h1-primary" style="color:white; text-shadow: 2px 3px 5px black; text-align: center;">Category of Foods</h1>
 	<div class="category-container">
 		<div class="veg">
 			<div class="foodimg">

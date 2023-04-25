@@ -1,0 +1,118 @@
+/*section services*/
+#service{
+
+}
+
+.service-container{
+	flex-direction: column;
+}
+
+.food{
+	width: 30rem;
+}
+
+
+/*category section*/
+#category{
+
+}
+.category-container{
+	flex-direction: column;
+}
+
+.veg{
+	width: 30rem;
+}
+
+
+
+.group{
+	width: 70%;
+
+}
+
+#about{
+	padding: 30px;
+}
+#about p{
+	padding: 10px;
+}
+
+
+#checkbtn{
+	position: fixed;
+	top: 1.5px;
+	left: 30px;
+	font-size: 2rem;
+	color: white;
+	display: none;
+	text-shadow: 3px 4px 7px black;
+}
+
+
+
+
+/*phone resolution*/
+
+@media screen and (max-width:500px){
+
+		nav ul{
+			display: block;
+			position: fixed;
+			top: 0%;
+			right: -100%;
+			transition: all 1s ease-in-out;
+		}
+
+		#home{
+			position: relative;
+			top: 0;
+		}
+
+		#navbar::before{
+			content: "";
+			background: black;
+		}
+		#checkbtn{
+			display: block;
+			z-index: 2;
+		}
+
+		#check:checked ~ ul{
+			text-align: center;
+			display: block;
+			background: black;
+			z-index: 1;
+			right: 0;
+		}
+
+		nav ul li{
+			display: block;
+			width: 100%;
+/*			flex-direction: column;*/
+			text-align: center;
+			padding: 10px 0px;
+		}
+
+		#home h1{
+			font-size: 1.7rem;
+		}
+		#home p{
+			font-size: 1.2rem;
+		}	
+
+		#service h1{
+			font-size: 1.7rem;
+		}
+
+		.h1-primary{
+			font-size: 1.7rem;
+		}
+
+		.food, .veg{
+			width: 20rem;
+		}
+
+
+	
+}
