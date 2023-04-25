@@ -5,6 +5,9 @@
 
 }
 
+html{
+	scroll-behavior: smooth;
+}
 
 #navbar::before{
 	content: "";
@@ -19,7 +22,7 @@ background: rgba(0, 0, 0, 0.9);
 
 #navbar{
 	position: sticky;
-	top: 0;
+	top: 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -254,6 +257,29 @@ display: flex;
 /*	border: 2px solid black;*/
 }
 
+
+#about{
+	background: black;
+/*	border: 2px soild red;*/
+	padding: 20px 80px 20px 80px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+#about h1{
+	color: white;
+
+}
+
+#about p{
+	border: 2px solid red;
+	padding: 30px;
+	border-radius: 20px;
+	text-align: center;
+/*	width: 30rem;*/
+	color: white;
+}
 
 
 
