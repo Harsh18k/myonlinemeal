@@ -56,9 +56,13 @@ display: none;
 /*	height: 80px;*/
 }
 
+#active{
+	background: red;
+}
 
 #drop li{
 /*	background: yellow;*/
+display: inline-block;
 	padding: 10px;
 }
 
@@ -67,6 +71,15 @@ display: none;
 	display: flex;
 }
 
+#navbar a{
+/*	background: yellowgreen;*/
+	border-radius: 10px;
+	color: white;
+}
+
+#navbar a:hover{
+	background: red;
+}
 
 /*section home bg image*/
 
@@ -132,6 +145,11 @@ display: none;
 
 #home a:hover{
 	transform: scale(1.2);
+	background: maroon;
+}
+
+
+#home:hover{
 }
 
 
