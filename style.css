@@ -2,6 +2,10 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Alkatra', cursive;
+/*font-family: 'Barlow Condensed', sans-serif;*/
+/*font-family: 'Bebas Neue', cursive;*/
+/*font-family: 'Teko', sans-serif;*/
 
 }
 
@@ -158,6 +162,7 @@ background: rgba(0, 0, 0, 0.9);
 	border-radius: 20px;
 	padding: 20px;
 	width: 17rem;
+/*	height: 700px;*/
 	margin: 10px 20px;
 	background: whitesmoke;
 /*	box-shadow: 2px 3px 7px white;*/
@@ -201,7 +206,7 @@ background: rgba(0, 0, 0, 0.9);
 
 .veg{
 	width: 17rem;
-	height: 300px;
+/*	height: 300px;*/
 		text-align: center;
 	border-radius: 20px;
 	padding: 20px 20px 20px 20px; 
