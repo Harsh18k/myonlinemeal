@@ -17,7 +17,11 @@ Foodie Delivery is a modern and intuitive web application designed to provide a 
 ## Screenshots
 
 Include screenshots or GIFs showcasing the website's user interface and features.
-![Screenshot of Myonlinemeal](myonlinemeal-screenshot.png)
+![Header Screenshot of Myonlinemeal](screenshot/header.png)
+![card-section Screenshot of Myonlinemeal](screenshot/card-section.png)
+![Another-card-section Screenshot of Myonlinemeal](screenshot/anothercard-section.png)
+![about of Myonlinemeal](screenshot/about.png)
+![contact Screenshot of Myonlinemeal](screenshot/contact.png)
 
 
 🌟✨ Introducing @aryanofficialjain | Food Website 🌟✨
